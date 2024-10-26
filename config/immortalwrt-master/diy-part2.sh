@@ -30,3 +30,4 @@ echo "DISTRIB_SOURCECODE='immortalwrt'" >>package/base-files/files/etc/openwrt_r
 #
 # ------------------------------- Other ends -------------------------------
 
+echo 'src-git amlogic https://github.com/ophub/luci-app-amlogic' >>feeds.conf.default
